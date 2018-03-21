@@ -2,9 +2,9 @@
   "compilerOptions": {
     "strict": true,
     "sourceMap": true,
-    "target": "ES5",
+    "target": "ES6",
     "declaration": true,
-    "outDir": "cjs"
+    "outDir": "es"
   },
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

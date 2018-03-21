@@ -13,11 +13,12 @@
   },
   "homepage": "",
   "module": "es/index.js",
-  "main": "cjs/index.js",
-  "typings": "./cjs/index.d.ts",
+  "main": "es/index.js",
+  "typings": "./es/index.d.ts",
   "files": ["src", "es", "cjs"],
   "scripts": {
-    "build": "rimraf es cjs && tsc && tsc --outDir es --target ES6",
+    "build": "rimraf es  && tsc",
+    "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
     "test": "jest",
     "test.w": "jest --watch",
     "test.wa": "jest --watchAll"
