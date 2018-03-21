@@ -1,12 +1,5 @@
 .idea
-
 node_modules
-
-dist/main.js
-
-umd/
-amd/
-cjs/
-es/
+dist/
 
 

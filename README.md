@@ -1,18 +1,25 @@
-## typescript lib starter
+# Crypto
 
-A starter typescript library project.
+Personal project to learn common cryptography.
 
-To get started, `git clone git@github.com:rencire/ts-lib-starter.git <your_project_name>`
+Please don't use this for serious production apps! As the saying goes, [Don't roll your own](https://security.stackexchange.com/questions/18197/why-shouldnt-we-roll-our-own)
 
-## Notes
+NOTE: only targeting es6 environments.
 
-* Consider replacing `lint-staged` with `https://github.com/nrwl/precise-commits` once its more stable.
+## TODO
 
-## Tools
+* [ ] publish package to npm
 
-* https://github.com/Microsoft/TypeScript
-* https://github.com/palantir/tslint
-* https://github.com/prettier/prettier
-* https://github.com/okonet/lint-staged
-* https://github.com/typicode/husky
-* https://github.com/kulshekhar/ts-jest
+## Quick start
+
+```
+npm install learn-crypto
+import { encrypt, decrypt } from 'learn-crypto/cipher/vignere'
+
+const key = "super_secret_key"
+const msg = "super_secret_message"
+const ciphertext = encrypt(msg, key)
+// "æÊÆäÊè¾ØÊìæÆÊ×"
+const msg = decrypt(ciphertext, key)
+// "super_secret_message"
+```

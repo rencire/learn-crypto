@@ -1,4 +1,4 @@
-import { decrypt, encrypt } from "./cipher";
+import { decrypt, encrypt } from "./vignere";
 
 describe("encrypt", () => {
   it("keyword length smaller than message", () => {

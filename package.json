@@ -12,12 +12,12 @@
     "url": ""
   },
   "homepage": "",
-  "module": "es/index.js",
-  "main": "es/index.js",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
   "typings": "./es/index.d.ts",
-  "files": ["src", "es", "cjs"],
+  "files": ["src", "dist"],
   "scripts": {
-    "build": "rimraf es  && tsc",
+    "build": "rimraf dist && tsc",
     "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
     "test": "jest",
     "test.w": "jest --watch",

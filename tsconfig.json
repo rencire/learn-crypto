@@ -4,7 +4,8 @@
     "sourceMap": true,
     "target": "ES6",
     "declaration": true,
-    "outDir": "es"
+    "outDir": "dist",
+    "moduleResolution": "node"
   },
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
