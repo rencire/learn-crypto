@@ -1,4 +1,4 @@
-# Crypto
+# Learn Crypto
 
 Personal project to learn common cryptography.
 
@@ -14,12 +14,14 @@ NOTE: only targeting es6 environments.
 
 ```
 npm install learn-crypto
-import { encrypt, decrypt } from 'learn-crypto/cipher/vignere'
+import { createCipher } from 'learn-crypto'
+
+const cipher = createCipher();
 
 const key = "super_secret_key"
 const msg = "super_secret_message"
-const ciphertext = encrypt(msg, key)
+const ciphertext = cipher.encrypt(msg, key)
 // "æÊÆäÊè¾ØÊìæÆÊ×"
-const msg = decrypt(ciphertext, key)
+const msg = cipher.decrypt(ciphertext, key)
 // "super_secret_message"
 ```
