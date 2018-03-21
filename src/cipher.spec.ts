@@ -17,5 +17,10 @@ describe("encrypt", () => {
     expect(encrypt(msg, key)).toBe(ciphertext);
     expect(decrypt(ciphertext, key)).toBe(msg);
   });
-  // it("message contains emoticons", () => {});
+  it("encrypting and decrypting emoticons", () => {
+    const key = "pileoffoo";
+    const msg = "💩💩💩";
+    const ciphertext: string = encrypt(msg, key) as string;
+    expect(decrypt(ciphertext, key)).toBe(msg);
+  });
 });
