@@ -1,6 +1,6 @@
 # Learn Crypto
 
-Personal project to learn common cryptography.
+Personal project to (re)learn common cryptography.
 
 Please don't use this for serious production apps! As the saying goes, [Don't roll your own](https://security.stackexchange.com/questions/18197/why-shouldnt-we-roll-our-own)
 

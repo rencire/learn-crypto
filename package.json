@@ -1,17 +1,17 @@
 {
-  "name": "my-ts-lib",
+  "name": "learn-crypto",
   "version": "0.0.1",
-  "description": "A typescript lib starter",
+  "description": "Project for learning cryptography.",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:rencire/learn-crypto.git"
   },
-  "author": "",
-  "license": "",
+  "author": "Eric Ren <eric@ren.email>",
+  "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/rencire/learn-crypto/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/rencire/learn-crypto",
   "module": "dist/index.js",
   "main": "dist/index.js",
   "typings": "./es/index.d.ts",
