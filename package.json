@@ -21,7 +21,10 @@
     "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
     "test": "jest",
     "test.w": "jest --watch",
-    "test.wa": "jest --watchAll"
+    "test.wa": "jest --watchAll",
+    "release.patch": "npm version patch && npm publish",
+    "release.minor": "npm version minor && npm publish",
+    "release.major": "npm version major && npm publish"
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",

@@ -1,4 +1,4 @@
-import * as vignere from "./vignere";
+import * as vignere from "./cipher/vignere.js";
 
 export const createCipher = (cipher: string): object => {
   let strategy;

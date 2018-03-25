@@ -1,1 +1,1 @@
-export { createCipher } from "./cipher";
+export { createCipher } from "./cipher.js";
