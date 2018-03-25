@@ -1,7 +1,3 @@
-// NOTE:
-// - need to polyfill `String.fromCodePoint` for ie11
-import "core-js/fn/string/from-code-point.js";
-
 // Current max code point (alphabet size) for unicode standard is 0x10FFF, or 1114111
 const N: number = 1114111;
 
