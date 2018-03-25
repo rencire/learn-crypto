@@ -12,12 +12,12 @@
     "url": "https://github.com/rencire/learn-crypto/issues"
   },
   "homepage": "https://github.com/rencire/learn-crypto",
-  "module": "dist/index.js",
-  "main": "dist/index.js",
-  "typings": "./es/index.d.ts",
-  "files": ["src", "dist"],
+  "module": "lib/index.js",
+  "main": "lib/index.js",
+  "types": "./es/index.d.ts",
+  "files": ["src", "lib"],
   "scripts": {
-    "build": "rimraf dist && tsc",
+    "build": "rimraf lib && tsc",
     "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
     "test": "jest",
     "test.w": "jest --watch",
